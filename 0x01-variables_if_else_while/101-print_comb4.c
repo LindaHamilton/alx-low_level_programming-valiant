@@ -37,6 +37,6 @@ int main(void)
         	j = i + 1;
         	k = j + 1;
     	}
-    	putchar('\n'); // print a newline character
+    	putchar('\n');
     	return 0;
 }

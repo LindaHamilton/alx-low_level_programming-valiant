@@ -5,11 +5,12 @@
  */
 int main(void) 
 {
-    int i = 0;
-    while (i < 10) {
-        putchar(i + '0'); /* convert the integer to its ASCII representation */
-        i++;
-    }
-    putchar('\n'); /* print a newline character */
-    return 0;
+	int i = 0;
+    	while (i < 10) 
+	{
+        	putchar(i + '0');/* convert the integer to its ASCII representation */
+        	i++;
+    	}
+    	putchar('\n');/* print a newline character */
+    	return 0;
 }

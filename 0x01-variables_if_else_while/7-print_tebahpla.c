@@ -6,12 +6,13 @@
 
 int main(void)
 {
-	int i = 'z'; /* ASCII code for 'z'*/
+	int i = 'z';/* ASCII code for 'z'*/
 	while (i >= 'a')
        	{
-        	putchar(i); /* print the current character */
-        	i--; /* move to the previous character */
-    	}
-    	putchar('\n'); /* print a newline character */
-    	return 0;
+        	putchar(i);/* print the current character */
+        	i--;/* move to the previous character */
+	}
+
+    	putchar('\n');/* print a newline character */
+	return 0;
 }
